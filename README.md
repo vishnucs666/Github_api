@@ -23,5 +23,5 @@ A program that analyzes the GitHub org “google” most commonly used and least
 ### Usage
 
   ```ruby
-  ruby exercise.rb
+  ruby GitHubApiFinder.rb
   ```
