@@ -4,7 +4,7 @@ require 'httparty'
 require 'csv'
 
 # Simple program to list google api most and least used languages
-class GraphUrl
+class GitHubApiFinder
   attr_reader :url
   attr_accessor :result
 
@@ -57,4 +57,4 @@ class GraphUrl
     end
   end
 end
-GraphUrl.new.find_result
+GitHubApiFinder.new.find_result
